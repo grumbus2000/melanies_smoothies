@@ -42,3 +42,4 @@ if ingredients_list:
         session.sql(my_insert_stmt).collect()
         
         st.success('Thank you, '+ name_on_order + '! ' + 'Your Smoothie is ordered!', icon="✅")
+ 
